@@ -1,0 +1,40 @@
+{
+  "name": "sitemap-system-dispatcher",
+  "description": "Generate sitemap dispatcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasRodrigues/sitemap-system.git"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Lucas Rodrigues",
+    "email": "lucas.carvalho.rodrigues@gmail.com",
+    "url": "https://github.com/LucasRodrigues"
+  },
+  "scripts": {
+    "build:dev": "gulp BUILD_DEVELOPMENT",
+    "build:deploy": "gulp BUILD_DEPLOY",
+    "style": "eslint ./src/*.js ./src/dispatchers/*.js --fix",
+    "prepublish": "npm run build:deploy"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "sitemap-system": "0.0.2"
+  },
+  "keywords": [
+    "sitemap",
+    "dispatcher"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "del": "^2.2.0",
+    "eslint": "^1.10.2",
+    "eslint-config-google": "^0.3.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-uglify": "^1.5.1",
+    "run-sequence": "^1.1.4"
+  }
+}
