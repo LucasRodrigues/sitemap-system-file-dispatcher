@@ -36,9 +36,9 @@ export default class Dispatcher {
   }
 
   static _folderName() {
-    const addZeroIfLessThen10 = (value){
-      return value < 10 ? "0" + value : value;
-    }
+    const addZeroIfLessThen10 = value => {
+      return value < 10 ? '0' + value : value;
+    };
 
     const date = new Date();
     const year = date.getFullYear();
