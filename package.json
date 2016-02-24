@@ -1,9 +1,9 @@
 {
-  "name": "sitemap-system-dispatcher",
-  "description": "Generate sitemap dispatcher",
+  "name": "sitemap-system-file-dispatcher",
+  "description": "Generate sitemap dispatcher for file",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasRodrigues/sitemap-system.git"
+    "url": "https://github.com/LucasRodrigues/sitemap-system-file-dispatcher.git"
   },
   "version": "0.0.1",
   "license": "MIT",
